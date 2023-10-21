@@ -1,4 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?>
+pod 'FBSDKCoreKit', '~> 8.0.0'
+pod 'FBSDKLoginKit', '~> 8.0.0'
+pod 'FBSDKShareKit', '~> 8.0.0'
+pod 'FBSDKGamingServiceKit', '~> 8.0.0'<?xml version="1.0" encoding="UTF-8"?>
 <Scheme
    LastUpgradeVersion = "1320"
    version = "1.3">
