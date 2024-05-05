@@ -7,7 +7,11 @@
 # Use the --use-libraries switch when pushing or linting this podspec
 
 Pod::Spec.new do |s|
-
+ pod 'FBSDKCoreKit' 
+ pod 'FBSDKLoginKit' 
+ pod 'FBSDKShareKit' 
+ pod 'FBSDKPlacesKit' 
+ pod 'FBSDKMessengerShareKit' 
     s.name         = 'FBAEMKit'
     s.version      = '17.0.1'
     s.summary      = 'The kernal module for Facebook AEM solution'
