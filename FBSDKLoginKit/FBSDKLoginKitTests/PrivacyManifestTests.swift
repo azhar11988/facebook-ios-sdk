@@ -6,13 +6,13 @@
  * LICENSE file in the root directory of this source tree.
  */
 
-@testable import FBSDKCoreKit
+@testable import FBSDKLoginKit
 
 import XCTest
 
 final class PrivacyManifestTests: XCTestCase {
   func testTrackingDomains() {
-    let bundle = Bundle(for: Settings.self)
+    let bundle = Bundle(for: LoginConfiguration.self)
     let manifestUrl = bundle.url(forResource: "PrivacyInfo", withExtension: "xcprivacy")
     guard let manifestUrl else {
       return XCTFail("Could not find Privacy Manifest file")
